@@ -1,5 +1,11 @@
 <?php
 
+$aaa='ss77jhhhh';
+echo strlen($aaa)<5;
+echo "<br>";
+
+
+
 
 
 if(isset($_POST["submit"]))
@@ -54,7 +60,7 @@ if(isset($_POST["submit"]))
 
     
 
-    if(!empty($pass) || !strlen($pass)<8 )
+    if(empty($pass) || strlen($pass)<8 )
     {
         echo "please enter a valid pass <br>";
     }
