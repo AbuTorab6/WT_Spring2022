@@ -1,11 +1,5 @@
 <?php
 
-$aaa='ss77jhhhh';
-echo strlen($aaa)<5;
-echo "<br>";
-
-
-
 
 
 if(isset($_POST["submit"]))
